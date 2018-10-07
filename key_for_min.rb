@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     name_hash.collect do |x, y|
       if x <  b
         b = x
-
       end
     end
+    name_hash[b.to_s]
 end
