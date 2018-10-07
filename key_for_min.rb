@@ -9,5 +9,6 @@ def key_for_min_value(name_hash)
         b = x
       end
     end
-    name_hash["b"]
+    b.to_string
+    name_hash[b]
 end
