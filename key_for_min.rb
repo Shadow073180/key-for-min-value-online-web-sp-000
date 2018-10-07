@@ -5,7 +5,6 @@ require 'pry'
 def key_for_min_value(name_hash)
   new = []
   name_hash.collect do |x, y|
-    new << y
   end
-  
+
 end
