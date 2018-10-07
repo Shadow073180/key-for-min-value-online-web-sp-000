@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   ages = []
     name_hash.collect do |x, y|
-      ages << x <=> y 
-    end  
-
+      ages << x <=> y
+    end
+    ages[0]
 end
