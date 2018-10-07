@@ -6,6 +6,6 @@ def key_for_min_value(name_hash)
   name_hash.collect do |x, y|
     new << y
   end
-    new.sort 
-    return name_hash[sort[0.to_string]]
+    news = new.sort
+    return name_hash[news[0.to_string]]
 end
