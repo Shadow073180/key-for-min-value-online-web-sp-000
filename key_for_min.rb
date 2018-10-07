@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     new << y
   end
   new.collect do |x, y|
-    x <=> y 
+    x <=> y
   end
   name_hash[new[0].to_s]
 end
